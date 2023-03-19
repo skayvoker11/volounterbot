@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 module.exports = {
     mongoDb() {
-        mongoose.connect("mongodb+srv://skayvoker:Bodich11041996p@cluster0.izya5.mongodb.net/?retryWrites=true&w=majority")
+        mongoose.connect("mongodb+srv://skayvoker:Bodich1234567890p@cluster0.izya5.mongodb.net/?retryWrites=true&w=majorit")
             .then((res) => {
                 console.log('Db connected')
             }).catch((err) => {
